@@ -1,0 +1,12 @@
+{
+    "python.linting.enabled": true,
+    "python.jediEnabled": false,
+
+    // Loaded Stubs:  esp32-micropython-1.11.0 
+    "python.autoComplete.extraPaths": [".micropy/BradenM-micropy-stubs-7a7d171/frozen", ".micropy/BradenM-micropy-stubs-4c2702f/frozen", ".micropy/BradenM-micropy-stubs-7a7d171/stubs", ".micropy/esp32-micropython-project"],
+    "python.autoComplete.typeshedPaths":  [".micropy/BradenM-micropy-stubs-7a7d171/frozen", ".micropy/BradenM-micropy-stubs-4c2702f/frozen", ".micropy/BradenM-micropy-stubs-7a7d171/stubs", ".micropy/esp32-micropython-project"],
+    "python.analysis.typeshedPaths":  [".micropy/BradenM-micropy-stubs-7a7d171/frozen", ".micropy/BradenM-micropy-stubs-4c2702f/frozen", ".micropy/BradenM-micropy-stubs-7a7d171/stubs", ".micropy/esp32-micropython-project"],
+
+    "python.linting.pylintEnabled": true,
+    "python.pythonPath": "/usr/local/bin/python3"
+}
