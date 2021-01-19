@@ -1,0 +1,10 @@
+{
+    "ts": 1610112739,
+    "values": {
+      "k_temperature": 23.0,
+      "k_humudity": 5.1,
+      "k_battery": 42.0,
+      "k_voltage": 73.7,
+      "k_amper": 0.2
+    }
+}

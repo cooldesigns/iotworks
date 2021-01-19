@@ -1,0 +1,7 @@
+# Publish data as an object with timestamp (server-side timestamp will be used)
+
+cat telemetry-data-with-ts.json | mqtt pub -v -h "51.11.242.41" -t "v1/devices/me/telemetry" -u 'E8eChakXTLdzPT752Oco' -s
+
+mosquitto_pub -d -h "51.11.242.41" -t "v1/devices/me/telemetry" -u "E8eChakXTLdzPT752Oco" -f "telemetry-data-with-ts.json"
+
+mosquitto_pub -d -h "51.11.242.41" -t "v1/devices/me/telemetry" -u "Ms5Z50jZUtK3oTuhd8qY" -f "telemetry-data-with-ts.json"
